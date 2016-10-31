@@ -15,7 +15,7 @@
             ng-if="(regForm.firstname.$error.minlength || regForm.firstname.$error.required) && regForm.firstname.$touched">
                 First name must be at least 2 characters long
           </span>
-          <span ng-if="regForm.firstname.$error.maxlength || regForm.firstname.$error.required) && regForm.firtsname.$touched">
+          <span ng-if="(regForm.firstname.$error.maxlength || regForm.firstname.$error.required) && regForm.firtsname.$touched">
                 First name must not be longer than 20 characters
           </span>
           <br>
@@ -32,7 +32,7 @@
             ng-if="(regForm.lastname.$error.minlength || regForm.lastname.$error.required) && regForm.lastname.$touched">
                 Last name must be at least 2 characters long
           </span>
-          <span ng-if="regForm.lastname.$error.maxlength || regForm.firstname.$error.required) && regForm.lastname.$touched">
+          <span ng-if="(regForm.lastname.$error.maxlength || regForm.firstname.$error.required) && regForm.lastname.$touched">
                 Last name must not be longer than 20 characters
           </span>
           <br>
